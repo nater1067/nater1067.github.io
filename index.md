@@ -22,3 +22,8 @@ deployment, security ops and more.
 Viewers can request new content at the
 [YouTube Channel Discussion Page](https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA/discussion).
 So far, every request has resulted in a new video!
+
+{% for post in site.posts %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>
+{% endfor %}
