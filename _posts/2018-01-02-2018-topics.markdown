@@ -2,7 +2,7 @@
 layout: post
 title:  "2018 Roadmap"
 date:   2018-01-02 06:05:08 -0800
-categories: 2017, 2018, road map, youtube channel, youtube playlists
+categories: code with nate, 2017, 2018, road map, youtube channel, youtube playlists
 description: 2017 was a great year and 2018 will be even better. Here's how
   I'm going to improve the YouTube channel for viewers this year.
   In 2018 I'm going to focus on improving viewer interaction. I want to create more
