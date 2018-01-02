@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "2018 Roadmap"
+date:   2018-01-02 06:05:08 -0800
+categories: 2017, 2018, road map, youtube channel, youtube playlists
+description: 2017 was a great year and 2018 will be even better. Here's how
+  I'm going to improve the YouTube channel for viewers this year.
+  In 2018 I'm going to focus on improving viewer interaction. I want to create more
+  engaging content based on
+---
+<h2>2017 In Retrospect, 2018 Preview</h2>
+
+I started the [Youtube Channel]({{ site.youtube_channel_url }}) without direction.
+
+The channel's first video playlist,
+[Programming A Personal Finance App](https://www.youtube.com/playlist?list=PLWuBW_Kn3apICKBVgxIoPXTAWebbaQKkG)
+structured tutorials around the production of a personal finance website and various
+topics related to frontend development, backend development and deployment of its components.
+
+All videos are created unscripted and live. Occasionally, I'll redo a video if I feel there was too
+much time wasted while debugging an issue. This happened less than 5 times in 2017. I enjoy this
+format, and it keeps the time cost of production low. The live format will continue through 2018.
+
+I'm going to add more structure to video production. There will be a schedule
+of at least 1 week in advance to make it easier for viewers to watch live.
+
+I also want to make it easier for viewers to request custom content. Presently, I've been
+randomly bringing up the fact I make videos on any subject matter that users make requests
+for. Going forward, I would like to guide users towards a content suggestion form at the
+end of videos. Approved suggestions (so far over 80% of suggestions have resulted in a new video) will
+be added to the schedule.
+
+The #1 most-viewed video was [React & Material-UI](https://www.youtube.com/watch?v=6whyzcUARuI) was
+by user request. Thanks to user Shine Han for suggesting a video amounted to over 48% of
+my channel's total view time!
+
+<h3>2017 (July 16 - December 31) was a great year for the channel</h3>
+<ul>
+    <li>26,803 Minutes Watch Time</li>
+    <li>7,015 Views</li>
+    <li>9.6% Average View Percentage</li>
+    <li>3:49 Minutes Average View Duration</li>
+    <li>4 <a href="https://www.youtube.com/playlist?list=PLWuBW_Kn3apIHuSZCWW5VY9nXnQzrqg05">Viewer Requests</a> Produced</li>
+    <li>124 Subscribers Gained, 4 Subscribers Lost</li>
+</ul>
+
+<h3>2018 Goals</h3>
+<ul>
+    <li>New Videos - 2 Per Week</li>
+    <li>Viewer Content Requests - 2 Per Month</li>
+    <li>Average Percentage Viewed increased to 12%</li>
+    <li>Subscriber Count Increased to 500</li>
+</ul>
+
+<h3>Moving Forward</h3>
+In 2018 I'm going to focus on improving viewer interaction. I want to create more
+engaging content based on their requests. I'll also make it easier for viewers
+to see upcoming video times with a schedule added to the YouTube channel and this blog. 2018
+is going to be a great year, perhaps even better than 2017!

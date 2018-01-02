@@ -5,8 +5,10 @@
 layout: home
 ---
 
-Welcome to codewithnate.com! This companion blog
-to [Code With Nate YouTube Channel](https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA)
+
+<h2>Welcome to codewithnate.com!</h2>
+This companion blog
+to <a href="{{ site.youtube_channel_url }}">Code With Nate YouTube Channel</a>
 is designed to teach web programming concepts in small, digestible chunks.
 
 I'm Nate Turner, producer of Code With Nate. I'm passionate about using the enormous
@@ -23,7 +25,9 @@ Viewers can request new content at the
 [YouTube Channel Discussion Page](https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA/discussion).
 So far, every request has resulted in a new video!
 
+<h2>Posts</h2>
 {% for post in site.posts %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+  {{ post.description }} <a href="{{ post.url }}">. . .</a>
 {% endfor %}

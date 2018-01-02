@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Code with Nate
+title: Code With Nate
 email: nater1992@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the Code with Nate channel! This channel hosts articles on
+  Welcome to the Code With Nate blog! This website hosts articles on
     programming, devops, security, and other technology-related topics authored by Nate Turner.
     Nate Turner is a entreprenurial-minded programmer based out of Las Vegas, Nevada who enjoys
     teaching others.
@@ -24,6 +24,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://codewithnate.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: codewithnate
 github_username:  nater1067
+
+youtube_channel_url: https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA
 
 # Build settings
 markdown: kramdown
