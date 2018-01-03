@@ -33,3 +33,8 @@ img.page-header-me-photo {
 .site-footer-copyright { display: block; font-weight: bold; }
 
 .site-footer-link { display: block; }
+
+.imgCaption {
+    text-align: center;
+    margin-top: -30px;
+}

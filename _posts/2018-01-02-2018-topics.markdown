@@ -32,6 +32,9 @@ The #1 most-viewed video was [React & Material-UI](https://www.youtube.com/watch
 by user request. Thanks to user Shine Han for suggesting a video amounted to over 48% of
 my channel's total view time!
 
+![2017 YouTube Channel Watch Time Growth]({{ "/assets/2018-01-02/watch-time-growth-2018.png" | absolute_url }})
+<p class="imgCaption">2017 YouTube Channel Watch Time Growth</p>
+
 <h3>2017 (July 16 - December 31) was a great year for the channel</h3>
 <ul>
     <li>26,803 Minutes Watch Time</li>
@@ -57,8 +60,8 @@ to see upcoming video times with a schedule added to the YouTube channel and thi
 is going to be a great year, perhaps even better than 2017!
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@nytimes">
-<meta name="twitter:creator" content="@SarahMaslinNir">
-<meta name="twitter:title" content="Parade of Fans for Houston’s Funeral">
-<meta name="twitter:description" content="NEWARK - The guest list and parade of limousines with celebrities emerging from them seemed more suited to a red carpet event in Hollywood or New York than than a gritty stretch of Sussex Avenue near the former site of the James M. Baxter Terrace public housing project here.">
-<meta name="twitter:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg">
+<meta name="twitter:site" content="@codewithnate">
+<meta name="twitter:creator" content="@codewithnate">
+<meta name="twitter:title" content="2018 Roadmap">
+<meta name="twitter:description" content="2017 was a great year and 2018 will be even better. Here's how I'm going to improve the YouTube channel for viewers this year.">
+<meta name="twitter:image" content="http://codewithnate.com/assets/2018-01-02/watch-time-growth-2018.png">
