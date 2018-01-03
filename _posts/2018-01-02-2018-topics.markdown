@@ -55,3 +55,10 @@ In 2018 I'm going to focus on improving viewer interaction. I want to create mor
 engaging content based on their requests. I'll also make it easier for viewers
 to see upcoming video times with a schedule added to the YouTube channel and this blog. 2018
 is going to be a great year, perhaps even better than 2017!
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nytimes">
+<meta name="twitter:creator" content="@SarahMaslinNir">
+<meta name="twitter:title" content="Parade of Fans for Houston’s Funeral">
+<meta name="twitter:description" content="NEWARK - The guest list and parade of limousines with celebrities emerging from them seemed more suited to a red carpet event in Hollywood or New York than than a gritty stretch of Sussex Avenue near the former site of the James M. Baxter Terrace public housing project here.">
+<meta name="twitter:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg">
