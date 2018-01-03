@@ -14,9 +14,13 @@ img.page-header-me-photo {
 }
 
 .page-header-small img.page-header-me-photo {
-    height: 27px;
-    margin-bottom: -1px;
+
+    margin-bottom: -3px;
 }
+
+@media screen and (min-width: 64em) { .page-header-small img { height: 38px; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header-small img { height: 30px; } }
+@media screen and (max-width: 42em) { .page-header-small img { height: 27px; margin-bottom: -3px } }
 
 .page-header-small a {
     color: white;
@@ -27,4 +31,5 @@ img.page-header-me-photo {
 }
 
 .site-footer-copyright { display: block; font-weight: bold; }
+
 .site-footer-link { display: block; }
