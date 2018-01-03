@@ -1,0 +1,30 @@
+/** My custom edits to Cayman */
+
+.page-header-small { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }
+@media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
+
+img.page-header-me-photo {
+    border-radius: 50%;
+}
+
+.page-header img.page-header-me-photo {
+    width: 150px;
+}
+
+.page-header-small img.page-header-me-photo {
+    height: 27px;
+    margin-bottom: -1px;
+}
+
+.page-header-small a {
+    color: white;
+}
+
+.page-header-small h1 {
+    display: inline;
+}
+
+.site-footer-copyright { display: block; font-weight: bold; }
+.site-footer-link { display: block; }

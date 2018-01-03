@@ -8,8 +8,6 @@ description: 2017 was a great year and 2018 will be even better. Here's how
   In 2018 I'm going to focus on improving viewer interaction. I want to create more
   engaging content based on
 ---
-<h2>2017 In Retrospect, 2018 Preview</h2>
-
 I started the [Youtube Channel]({{ site.youtube_channel_url }}) without direction.
 
 The channel's first video playlist,
@@ -27,7 +25,7 @@ of at least 1 week in advance to make it easier for viewers to watch live.
 I also want to make it easier for viewers to request custom content. Presently, I've been
 randomly bringing up the fact I make videos on any subject matter that users make requests
 for. Going forward, I would like to guide users towards a content suggestion form at the
-end of videos. Approved suggestions (so far over 80% of suggestions have resulted in a new video) will
+end of videos. Approved suggestions (so far most suggestions have resulted in a new video) will
 be added to the schedule.
 
 The #1 most-viewed video was [React & Material-UI](https://www.youtube.com/watch?v=6whyzcUARuI) was

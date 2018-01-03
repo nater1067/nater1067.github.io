@@ -25,6 +25,7 @@ url: "http://codewithnate.com" # the base hostname & protocol for your site, e.g
 twitter_username: codewithnate
 github_username:  nater1067
 
+twitter_url: https://twitter.com/codewithnate
 youtube_channel_url: https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA
 
 # Build settings
@@ -33,6 +34,7 @@ theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
