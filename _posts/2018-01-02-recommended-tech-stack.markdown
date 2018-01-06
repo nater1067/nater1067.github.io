@@ -137,3 +137,9 @@ any web project.
 As always, I'm going to plug the [Youtube Channel]({{ site.youtube_channel_url }}). Subscribe if you love the content
 and feedback is always appreciated. Community Discussion should happen
 over at the [Channel's Discussion Page](https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA/discussion).
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@codewithnate">
+<meta name="twitter:creator" content="@codewithnate">
+<meta name="twitter:title" content="2018 My AWS Web Tech Stack">
+<meta name="twitter:description" content="With the start of 2018, I'd like to share my favorite web tech stack for AWS. This stack is excellent for web applications of any kind - user facing platforms, sass products, api-driven webservices and more. If you're looking for a tech stack, here's a great place to start.">
