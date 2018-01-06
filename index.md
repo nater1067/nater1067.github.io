@@ -30,4 +30,6 @@ So far, every request has resulted in a new video!
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
   {{ post.description }} <a href="{{ post.url }}">. . .</a>
+
+  {{ post.date | date: '%B %d, %Y' }} by Nate Turner
 {% endfor %}

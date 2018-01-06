@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Why I Prefer React Over Angular"
+date:   2018-01-05 06:05:08 -0800
+categories: react vs angular 4, why react is awesome, why use react, angular, react overview
+description: Why I prefer React to Angular and other frontend frameworks
+---
+This is an excerpt of [a discussion I had with a user on the YouTube Channel](https://www.youtube.com/channel/UCPrcrJwwcMGWpOv_qRJOuIA/discussion?lc=UgxZFI-5x2L7S8XrACd4AaABAg.8_-cT8gHQzS8_1NfVl14PH).
+
+<h3>Viewer Mejdoub's Request</h3>
+"Hi Nate , i just want to know which is better react or angular 4 ?"
+
+<h3>My Response</h3>
+Hey Mejdoub,
+
+
+While I think both have their merits, I prefer React for most applications and have always recommended using it over Angular 1/2/4 whatever. Full disclosure - I have a lot more experience with React.
+
+One of the impressive traits of React is how little its api has changed in 16 major versions. React has been rewritten in version 16, without major backwards compatibility issues. This goes for every major React update that I can recall. This suggests that react will foster a more stable package ecosystem, and allow for upgrades by teams with less work than angular. (Migrating from Angular 1 to Angular 4 sounds terrifying!)
+
+
+On top of that, React is a much simpler library. It is primarily a view layer, with 2 ways to maintain the state of your application - props and state. The basic mechanics of React, especially when relying primarily on pure components, are very. You just have to learn to make components which are functions that take a props object and return JSX (which feels just like returning html, which is nice).
+
+
+Conversely, Angular 4 and its predecessors are very opinionated. The use of build-in controller layers, service layers, and view layers are encouraged. This makes the library harder to master, because the scope of the library is so much bigger.
+
+I'm also a big fan of functional programming, and creating a little global state as possible. React seems to foster this paradigm more than Angular.
+
+
+TLDR: I'd go with React. But it's worth trying both to see what you like best.﻿
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@codewithnate">
+<meta name="twitter:creator" content="@codewithnate">
+<meta name="twitter:title" content="2018 Roadmap">
+<meta name="twitter:description" content="2017 was a great year and 2018 will be even better. Here's how I'm going to improve the YouTube channel for viewers this year.">
+<meta name="twitter:image" content="http://codewithnate.com/assets/2018-01-02/watch-time-growth-2018.png">
