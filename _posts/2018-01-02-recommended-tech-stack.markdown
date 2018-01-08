@@ -9,13 +9,13 @@ description: With the start of 2018, I'd like to share my favorite web tech stac
 With the seemingly infinite amount of web tech stacks available to developers today,
 I thought it best to share my preferred web programming stack.
 I've split this post into four sections -
-Frontend Programming, Frontend Infrastructure, Backend Programming and Backend Infrastructure.
+Front-end Programming, Front-end Infrastructure, Back-end Programming and Back-end Infrastructure.
 I also link to relevant videos that will get you started with this stack.
 Almost every component of this tech stack has relevant tutorials on the [Youtube Channel]({{ site.youtube_channel_url }}).
 Let's dig in!
 
-<h3>Frontend Programming</h3>
-I look for these attributes in a modern frontend stack.
+<h3>Front-end Programming</h3>
+I look for these attributes in a modern front-end stack.
 1. Easy installation
 2. Fast live reload for quick iteration cycles
 3. Easy deployment
@@ -36,35 +36,35 @@ Deploying is also simple. create-react-app comes with a built-in npm script: "np
 everything up for an easy deployment to AWS S3 which is covered under the infrastructure section below.
 
 While conceptually JSX might seem alien to a traditional web programmer, working with it becomes very intuitive
-after a few days of practice. React is a simple yet extremely powerful frontend view layer framework, perfect for
+after a few days of practice. React is a simple yet extremely powerful front-end view layer framework, perfect for
 the presentation layer of a website. A react component can be as simple as a pure function that takes a single props
 argument and returns JSX that describes the HTML markup to render. React is also blazingly fast, has a top notch
 community behind it with awesome tutorials everywhere,
 [and has a minified size of 34.8 kb gzipped as of version 16.0](https://reactjs.org/blog/2017/09/26/react-v16.0.html#reduced-file-size) which helps
 websites load faster, especially for ever-increasingly important mobile device users.
 
-P.S. I recommend performing proprietary business logic in your backend software,
-and using frontend projects for presentation only. This will help safeguard your intellectual property and make
-it easier to get away with using less rigid model and controller layers for the frontend like those offered by Angular.
+P.S. I recommend performing proprietary business logic in your back-end software,
+and using front-end projects for presentation only. This will help safeguard your intellectual property and make
+it easier to get away with using less rigid model and controller layers for the front-end like those offered by Angular.
 
 Also see: [Why I prefer React over Angular](/react/vs/angular/4,/why/is/awesome,/use/react,/angular,/overview/2018/01/05/2018-topics.html)
 
-<h3>Frontend Infrastructure</h3>
-I deploy frontend projects to AWS S3 and use Cloudfront as a CDN and for HTTPS. AWS S3 is super cheap. Cloudfront
+<h3>Front-end Infrastructure</h3>
+I deploy front-end projects to AWS S3 and use Cloudfront as a CDN and for HTTPS. AWS S3 is super cheap. Cloudfront
 caches assets stored in AWS S3, and delivers theme over HTTPS through its CDN. HTTPS is a necessity for modern
 websites, and an important factor in keeping your users safe on the web. This infrastructure is super cheap, fast
 and secure.
 
 See [Deploying a React App with AWS S3](https://www.youtube.com/watch?v=rVj3zc30-8E) and [HTTPS for an AWS S3 Static Website using Cloudfront](https://www.youtube.com/watch?v=_Jw6tHUp6js&t=82s) for video tutorials.
 
-<h3>Backend Programming</h3>
-My backend stack varies on a case by case basis. A lot of the time I will write a
+<h3>Back-end Programming</h3>
+My back-end stack varies on a case by case basis. A lot of the time I will write a
 dashboard / CRUD application using Symfony and, if necessary, interface with microservices written in
 NodeJS or Scala that handle processes requiring higher load. For most readers, I expect Symfony will
 be enough. Optionally add NodeJS or Scala as you see fit. I try to keep everything as stateless as possible
 so horizontal scaling can be applied in the future.
 
-I use [PHP & Symfony](http://symfony.com/at-a-glance) with [Doctrine](https://symfony.com/doc/current/doctrine.html) if I want to build a backend for
+I use [PHP & Symfony](http://symfony.com/at-a-glance) with [Doctrine](https://symfony.com/doc/current/doctrine.html) if I want to build a back-end for
 an user-facing app with a lot of CRUD (Create, Read, Update, Delete).
 I find the Symfony ecosystem to be very rigid, well-documented and uniform - which makes it great for projects with more than one developer.
 The [Symfony Coding Standards](http://symfony.com/doc/current/contributing/code/standards.html#symfony-coding-standards-in-detail) are frankly
@@ -75,7 +75,7 @@ On the flip side, PHP is one of the most popular languages on the web. Finding P
 than finding NodeJS or especially Scala developers.
 
 I choose between either [NodeJS with Express](https://expressjs.com/)
-or the [Scala Play Framework](https://www.playframework.com/) for backend projects that require
+or the [Scala Play Framework](https://www.playframework.com/) for back-end projects that require
 performance. Both languages support asynchronous programming models, a crucial feature when creating performant software.
 I typically build these as microservices, because I find that larger NodeJS and Scala applications tend to get messy and
 are hard to collaborate on.
@@ -84,7 +84,7 @@ I use NodeJS for simple microservices that I want to complete quickly, deploy, a
 The barriers to entry for building an application with
 NodeJS are very low. NodeJS runs fast, has a small executable footprint and has very limited server requirements
 which makes it great for deployment with Docker. Javascript, the language of NodeJS has a very easy-to-read
-syntax, and also the language of frontend programming, so frontend developers can learn NodeJS easily and visa versa.
+syntax, and also the language of front-end programming, so front-end developers can learn NodeJS easily and visa versa.
 With the advent of ES6, programming in NodeJS is expressive and fast.
 
 Node does not have strong typing,
@@ -103,14 +103,14 @@ is really, really high. I rate it as the hardest language I've ever learned. Run
 knowledge of the Java Virtual Machine. Scala tends to have much larger server requirements than NodeJS because of its
 dependency on the JVM.
 
-<h3>Backend Infrastructure</h3>
+<h3>Back-end Infrastructure</h3>
 PHP Symfony, NodeJS Express and Scala Play all get baked into [Docker](https://docs.docker.com/get-started/) container images and deployed on
 AWS EC2 Container Service. PHP Symfony is unfortunately harder to deploy because it requires both NGINX and PHP-FPM for its
 server. Express is executable out of the box, so creating a Docker container for it is very simple and just
 requires NodeJS installed to run. Scala Play compiles to an executable and will run in a Docker container with the correct
 version of Java installed.
 
-AWS EC2 Container Service (ECS) keeps your docker containers running for you. So once you deploy your backend services,
+AWS EC2 Container Service (ECS) keeps your docker containers running for you. So once you deploy your back-end services,
 you can sit back, relax and let ECS take the wheel. An AWS Application Load Balancer (ALB) will round robin traffic
 to as many instances of your docker containers as you like. I've got tutorials on how to deploy Symfony and Scala Play
 with docker on the YouTube Channel, linked below. The ALB exposes analytics related to service health, request frequency
